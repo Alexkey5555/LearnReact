@@ -1,4 +1,14 @@
-const red = {
+
+
+const multy = (x, y = 3) => x + y;
+const arr = [1, 2, 3];
+console.log(arr[1]);
+
+
+
+console.log(multy(57));
+
+/*const red = {
     color: "#ff0000",
     fontSize: "30px"
 }
@@ -43,4 +53,6 @@ class RenderJSX extends React.Component {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<RenderJSX />);
+root.render(<RenderJSX />);*/
+
+
